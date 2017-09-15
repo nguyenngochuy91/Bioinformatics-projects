@@ -10,13 +10,14 @@ ancestral states.
 
 ## Requirements
 * Python 2.7.6+
-* Biopython 1.63+ (python-biopython)
-* Muscle Alignment
+* [Biopython >=1.63](Biopython)
+* [http://www.drive5.com/muscle/downloads.htm](MUSCLE) 
 * ncbi-tools (ncbi-tools-bin)
 * BLAST2 (blast2)
 * BLAST+ (ncbi-blast+)
-* ete3 (python framework for trees)
-
+* [http://etetoolkit.org/](ete3)
+ install python-biopython muscle nscbi-tools-bin blast2 ete3
+```
 ## Installation
 User can either use github interface Download or type the following command in command line:
 ```bash
@@ -27,7 +28,7 @@ For the requirements, everything but ete3 can be installed using the following c
 sudo apt-get install python-biopython ncbi-tools-bin blast2 ncbi-blast+ muscle
 ```
 
-For ete3, user can check installation instructions on this website: http://etetoolkit.org/download/
+For ete3, check installation instructions on this website: http://etetoolkit.org/download/
 
 ## Usage
 
